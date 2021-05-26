@@ -19,7 +19,7 @@ public class NameServlet extends HttpServlet {
         if (firstName == null || lastName == null) {
             System.out.println("A full name is not provided");
         } else {
-            System.out.println("Hello " + firstName + " " + lastName + ", nice to meet you");
+            System.out.println("Hello " + firstName + "  " + lastName + ", nice to meet you");
         }
     }
 
